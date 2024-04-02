@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #f9b000;
+  --secondary-color: #00557d;
+  --terciary-color: #0095db;
+  --body-color: #48484e;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--body-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
