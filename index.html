@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colégio Despertar</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/normalize.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,31 +15,46 @@
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <a href="/">
+    <header class="header">
+      <div class="container container--flex">
+        <a class="logo-link" href="#">
           <img src="./imagens/HEADER.png" alt="logo" />
         </a>
-        <nav>
-          <ul>
-            <li>
-              <a href="O">O Colegio</a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">O Colegio</a>
             </li>
-            <li>
-              <a href="O">Projetos</a>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Projetos</a>
             </li>
-            <li>
-              <a href="O">Caiu na rede</a>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Caiu na rede</a>
             </li>
-            <li>
-              <a href="O">Contatos</a>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#">Contato</a>
             </li>
-            <li>
-              <button>Matricula</button>
+            <li class="nav-list-item">
+              <button class="nav-list-item-link nav-list-item-link--cta">
+                Matricula
+              </button>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    <section class="hero-banner">
+      <div class="container">
+        <p class="p">DESPERTAR PARA SER</p>
+        <h1 class="texto-bg">
+          Questionador,<br />Singular,<br />Líder,<br />
+          <span class="voce">Você.</span>
+        </h1>
+        <a class="button button--outline" href="#">
+          CONHEÇA-NOS <img class="seta" src="./imagens/Arrow 1.png" alt="" />
+        </a>
+      </div>
+    </section>
+    <section></section>
   </body>
 </html>
