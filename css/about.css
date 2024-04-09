@@ -1,0 +1,38 @@
+section.about .eyebrown {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--terciary-color);
+    margin: 0 0 10px;
+  }
+  
+  section.about .title {
+    font-size: 50px;
+    color: var(--secondary-color);
+    margin: 0 0 16px;
+  }
+  
+  section.about .description {
+    font-weight: 300;
+    line-height: 28px;
+  }
+  
+  section.about .slide {
+    border-radius: 20px 90px 20px 90px;
+  }
+  
+  .button.button--outline.button--outline--cta {
+    color: var(--terciary-color);
+    text-decoration: none;
+    border-color: var(--terciary-color);
+    border-radius: 30px;
+    padding-left: 35px;
+  }
+  
+  .button.button--outline.button--outline--cta {
+    display: inline flex;
+    align-items: center;
+    padding: 12px 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--terciary-color);
+  }

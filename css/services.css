@@ -1,0 +1,10 @@
+.services .title {
+  background-color: var(--ligth-blue);
+  color: var(--terciary-color);
+  line-height: 1px;
+}
+
+.services .title span {
+  background-color: white;
+  padding: 0 40px;
+}

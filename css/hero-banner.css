@@ -1,0 +1,53 @@
+.hero-banner {
+  min-height: 586px;
+  background-image: url(../imagens/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #00557d;
+  box-sizing: border-box;
+  margin-bottom: 110px;
+}
+
+.hero-banner .eyebrown {
+  color: white;
+  padding-top: 95px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.hero-banner .texto-bg {
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  line-height: 1;
+  margin: 0 0 36px;
+}
+
+.hero-banner .voce {
+  font-size: 60px;
+  font-weight: 500px;
+  font-weight: bold;
+}
+
+.hero-banner .button {
+  color: white;
+  text-decoration: none;
+  border-color: white;
+  border-radius: 30px;
+  padding-left: 35px;
+}
+
+.hero-banner .button.button--outline {
+  display: inline flex;
+  align-items: center;
+  padding: 12px 36px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.hero-banner .seta {
+  width: 28px;
+  margin-left: 10px;
+}

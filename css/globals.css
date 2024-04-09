@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #f9b000;
+  --secondary-color: #00557d;
+  --terciary-color: #0095db;
+  --body-color: #48484e;
+  --ligth-blue: #b2d3e9;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--body-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container.container--flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container.container--two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
