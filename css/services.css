@@ -8,3 +8,8 @@
   background-color: white;
   padding: 0 40px;
 }
+
+.services .icons {
+  display: flex;
+  justify-content: space-between;
+}
