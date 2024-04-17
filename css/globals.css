@@ -32,3 +32,16 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 60px;
 }
+
+.title-container .eyebrown {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--terciary-color);
+  margin: 0 0 10px;
+}
+
+.title-container .title {
+  font-size: 50px;
+  color: var(--secondary-color);
+  margin: 0 0 16px;
+}

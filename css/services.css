@@ -2,6 +2,12 @@
   background-color: var(--ligth-blue);
   color: var(--terciary-color);
   line-height: 1px;
+  margin-bottom: 50px;
+}
+
+.services {
+  border-bottom: 1px solid var(--ligth-blue);
+  margin-bottom: 90px;
 }
 
 .services .title span {
@@ -9,24 +15,24 @@
   padding: 0 40px;
 }
 
-.services .icons {
+.services .container {
   display: flex;
   justify-content: space-between;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+.services .icons {
+  display: flex;
+  font-size: 30px;
+  gap: 20px;
+  margin-bottom: 50px;
+  align-items: center;
 }
-.grid-item {
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-  overflow: hidden;
+.services .icons p {
+  margin: 0;
 }
-.grid-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.services .icons img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
