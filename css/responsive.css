@@ -1,0 +1,71 @@
+@media (max-width: 1024px) {
+  .nav.nav-desktop {
+    display: none;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .about .container {
+    grid-template-columns: 1fr;
+  }
+
+  section.about .slide {
+    width: 100%;
+  }
+
+  .services .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services .icons p {
+    min-width: 220px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .galery {
+    min-height: 0;
+    padding-bottom: 70px;
+  }
+
+  .contact .grid .image {
+    display: none;
+  }
+
+  .contact .form-container .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact .grid {
+    grid-template-columns: 1fr;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .contact .form-container {
+    padding: 0;
+  }
+
+  .contact .form-container .form .form-group.form-group--two-columns {
+    grid-column: unset;
+  }
+
+  .footer .description {
+    width: 50%;
+  }
+
+  .footer .container.container--flex {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 540px) {
+  section.hero-banner {
+    background-image: url(../imagens/bg-mobile.png);
+  }
+}
