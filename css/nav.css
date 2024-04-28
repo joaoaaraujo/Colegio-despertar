@@ -10,6 +10,9 @@
 .nav .nav-list .nav-list-item .nav-list-item-link {
   color: var(--white);
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .nav .nav-list .nav-list-item .nav-list-item-link--cta {
@@ -17,4 +20,9 @@
   padding: 15px 27px;
   border-radius: 16px;
   border-width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 80px;
 }

@@ -1,8 +1,8 @@
 .galery {
+  padding-top: 63px;
   background-color: var(--grey);
-  margin-top: 110px;
   min-height: 1015px;
-  margin: 20px;
+  margin: 20px 20px 110px;
   border-radius: 20px 90px 20px 90px;
 }
 
@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  margin-top: 65px;
 }
 
 .galery .galery-item {

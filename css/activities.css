@@ -1,9 +1,15 @@
+.activities {
+  margin-bottom: 110px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 .grid-item {
+  text-decoration: none;
+  position: relative;
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -30,4 +36,23 @@
   padding: 20px 30px 40px;
   line-height: 28px;
   font-size: 16px;
+}
+
+.activities .arrow-card-body img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.activities .arrow-card-body {
+  bottom: -23px;
+  left: calc(50% - 23px);
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--terciary-color);
+  border-radius: 100%;
 }
